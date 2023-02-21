@@ -1,5 +1,5 @@
 "" Source your .vimrc
-"source ~/.vimrc
+source ~/.vimrc
 
 set clipboard+=unnamed
 set clipboard+=ideaput
@@ -82,7 +82,6 @@ nnoremap <leader>s :action GotoRelated<CR>
 nnoremap <leader>h :action CallHierarchy<CR>
 nnoremap <leader>b :action ShowNavBar<CR>
 nnoremap <c-s> :action FileStructurePopup<CR>
-nnoremap <c-o> :action GotoSymbol<CR>
 nnoremap gc :action GotoClass<CR>
 nnoremap gi :action GotoImplementation<CR>
 nnoremap gd :action GotoDeclaration<CR>
